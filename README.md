@@ -32,6 +32,36 @@ The little curl at the bottom is doing some kind of flourish that says "I traine
 
 ---
 
+## Entry 003 — The Maître d' Between Shifts
+
+**Location:** TBD
+**Date spotted:** May 2026
+
+![Entry 003](images/003-maitre-d.jpeg)
+
+This ampersand is bowing. Not metaphorically — it has physically folded itself at the waist to greet you. Brush-script, tilted forward, one arm tucked behind its back, the other gesturing toward an empty table that may or may not exist. "Right this way, sir."
+
+This is the ampersand that has been a maître d' at the same restaurant for thirty-one years and has personally seated four mayors, two senators, and one woman he is fairly sure was Joan Didion. He will not confirm. He does not gossip. He simply remembers.
+
+On his break he writes poetry in a small leather notebook he bought in Lisbon. Nobody knows about the poetry. Nobody will. The serif at the top is the corner of his pocket square. The flourish at the bottom is the heel of his shoe lifting slightly off the floor as he pivots. He has not been surprised by anything since 1994.
+
+---
+
+## Entry 004 — The Star-Spangled Acquirer
+
+**Location:** TBD (likely a deli or bodega — "Breakfast something & Cheese," presumably)
+**Date spotted:** May 2026
+
+![Entry 004](images/004-bodega-freedom.jpeg)
+
+This ampersand is *red*. Fire-engine, flag-on-the-Fourth, hand-on-heart red. It is bold, it is sans-serif, it is approximately the same size as the letters around it but radiates the energy of being three sizes larger. There is no flourish. There is no nuance. There is one (1) job and it is being done.
+
+This is the ampersand that owns a slightly weathered American flag and flies it year-round. It calls everyone "chief." It has strong opinions about the proper temperature for coffee and the proper way to fold a deli sandwich, and it will share both unprompted. It has never once doubted itself, on any topic, ever.
+
+The little crossbar at the base is planted like a flagpole in concrete. The two loops are clenched fists. Bald eagle screech somewhere in the middle distance. This ampersand does not connect Breakfast and Cheese — it *vouches* for them, personally, and would step in front of a bus for either one.
+
+---
+
 ## Categories under consideration
 
 - Ampersands with too much confidence
