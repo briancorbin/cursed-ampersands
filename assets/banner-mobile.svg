@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 384" width="1280" height="384">
+  <defs>
+    <filter id="grain-m" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.07 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="384" fill="#f4ecd8"/>
+  <rect width="1280" height="384" filter="url(#grain-m)" opacity="0.6"/>
+
+  <g opacity="0.12" fill="#1a1410">
+    <text x="40" y="300" font-family="Didot, 'Bodoni 72', Georgia, serif" font-size="160" font-style="italic">&amp;</text>
+    <text x="1080" y="320" font-family="'Brush Script MT', 'Snell Roundhand', cursive" font-size="200">&amp;</text>
+    <text x="1140" y="120" font-family="'Bodoni 72', Didot, Georgia, serif" font-size="80" font-weight="700">&amp;</text>
+  </g>
+
+  <!-- medallion centered -->
+  <g transform="translate(640,150)">
+    <circle r="105" fill="#f4ecd8"/>
+    <circle r="100" fill="none" stroke="#6b5a3e" stroke-width="2" opacity="0.45"/>
+    <circle r="92" fill="none" stroke="#6b5a3e" stroke-width="1" opacity="0.35"/>
+    <text x="0" y="58" text-anchor="middle"
+          font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+          font-size="200" font-style="italic" fill="#8b1a1a">&amp;</text>
+  </g>
+
+  <!-- title under medallion -->
+  <text x="640" y="306" text-anchor="middle"
+        font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+        font-size="34" font-variant="small-caps" letter-spacing="6" fill="#1a1410">The Cursed Ampersand</text>
+  <text x="640" y="338" text-anchor="middle"
+        font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+        font-size="34" font-variant="small-caps" letter-spacing="6" font-style="italic" fill="#1a1410">Personality Archives</text>
+  <text x="640" y="364" text-anchor="middle"
+        font-family="Didot, Georgia, serif" font-size="14" font-style="italic" fill="#6b5a3e">A field guide to ampersands with too much going on.</text>
+</svg>

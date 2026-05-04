@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 384" width="1920" height="384">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.07 0"/>
+    </filter>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1920" height="384" fill="#f4ecd8"/>
+  <rect width="1920" height="384" filter="url(#grain)" opacity="0.6"/>
+
+  <!-- decorative scattered specimens (faded) -->
+  <g opacity="0.12" fill="#1a1410">
+    <text x="80" y="290" font-family="Didot, 'Bodoni 72', Georgia, serif" font-size="180" font-style="italic">&amp;</text>
+    <text x="1620" y="320" font-family="'Brush Script MT', 'Snell Roundhand', cursive" font-size="220">&amp;</text>
+    <text x="1480" y="120" font-family="'Bodoni 72', Didot, Georgia, serif" font-size="90" font-weight="700">&amp;</text>
+    <text x="240" y="120" font-family="Georgia, serif" font-size="80">&amp;</text>
+    <text x="1750" y="170" font-family="'Iowan Old Style', Palatino, serif" font-size="70" font-style="italic">&amp;</text>
+  </g>
+
+  <!-- medallion left -->
+  <g transform="translate(232,192)">
+    <circle r="140" fill="#f4ecd8"/>
+    <circle r="132" fill="none" stroke="#6b5a3e" stroke-width="2" opacity="0.45"/>
+    <circle r="124" fill="none" stroke="#6b5a3e" stroke-width="1" opacity="0.35"/>
+    <text x="0" y="76" text-anchor="middle"
+          font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+          font-size="260" font-style="italic" fill="#8b1a1a">&amp;</text>
+  </g>
+
+  <!-- divider rule -->
+  <line x1="430" y1="80" x2="430" y2="304" stroke="#6b5a3e" stroke-width="1" opacity="0.4"/>
+
+  <!-- wordmark -->
+  <g transform="translate(480,0)">
+    <text x="0" y="118" font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+          font-size="22" font-variant="small-caps" letter-spacing="10" fill="#8b1a1a">An Ongoing Archive</text>
+
+    <text x="0" y="200" font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+          font-size="62" font-weight="400" fill="#1a1410" letter-spacing="2">The Cursed Ampersand</text>
+    <text x="0" y="266" font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+          font-size="62" font-style="italic" font-weight="400" fill="#1a1410" letter-spacing="2">Personality Archives</text>
+
+    <text x="0" y="320" font-family="Didot, Georgia, serif" font-size="22"
+          font-style="italic" fill="#6b5a3e">A field guide to ampersands with too much going on.</text>
+  </g>
+</svg>
