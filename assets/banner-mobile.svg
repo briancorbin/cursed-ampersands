@@ -18,7 +18,7 @@
   <!-- wordmark, right of avatar zone -->
   <g transform="translate(320,0)">
     <text x="0" y="150" font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
-          font-size="20" font-variant="small-caps" letter-spacing="10" fill="#8b1a1a">The Permanent Collection</text>
+          font-size="20" font-variant="small-caps" letter-spacing="10" fill="#8b1a1a">Field Submissions</text>
 
     <text x="0" y="218" font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
           font-size="56" font-weight="400" fill="#1a1410" letter-spacing="2">The Cursed Ampersand</text>
