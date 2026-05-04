@@ -62,6 +62,38 @@ The little crossbar at the base is planted like a flagpole in concrete. The two 
 
 ---
 
+## Entry 005 — The Eight in Witness Protection
+
+**Location:** Bergenfield, NJ (tequila bottle)
+**Date spotted:** May 2026
+
+![Entry 005](images/005-witness-protection.jpeg)
+
+This is not an ampersand. This is an 8. Specifically, this is an 8 that took a deal with the federal government, got a new identity, and is now pretending to be an ampersand on a tequila bottle in Bergenfield, New Jersey. The two loops are stacked. They are not even *trying* to interlock. The disguise is, frankly, terrible.
+
+This is the ampersand that drinks alone at the end of the bar and never finishes its sentences. It will not tell you where it's from. It will not tell you what it used to do. It will, if pressed, mumble something vague about "math" and then change the subject. The tequila company, allegedly, does not know.
+
+The kerning is suspect. The white sans-serif is doing its best to look casual and it is failing. Look at it tilted just slightly to the right — that is not a design choice, that is the lean of someone who has been at the bar for three hours and is committed to the bit. Somewhere, in a file cabinet at a federal building in Newark, there is a manila folder with this ampersand's real name on it. Nobody is going to open it.
+
+---
+
+## Entry 006 — The Letterpress Heir
+
+**Location:** Bergenfield, NJ
+**Date spotted:** May 2026
+
+![Entry 006](images/006-letterpress-heir.jpeg)
+
+This ampersand has a *trust*. It will not be discussing the trust. The trust is administered by a firm in midtown that has had the same nameplate since 1937, and that is all you need to know.
+
+Look at it. Black ink, gold inlay, pressed by hand into cream cotton paper that costs more per sheet than most people's groceries. The two loops are *intertwined*, not stacked — these are not strangers, these are two parties who have been in business together for generations. The little gold thread running through is the kind of detail you only get when someone in your family knew someone in someone else's family in 1908.
+
+This is the ampersand on the wedding invitation you weren't invited to. This is the ampersand on the back of an envelope from a law firm with three surnames in the masthead. It does not raise its voice. It has never raised its voice. When it wants something to happen, it makes one phone call, and the thing happens.
+
+Somewhere there is a summer house. Somewhere there is a sailboat. Somewhere there is a portrait of a great-grandfather who was, depending on who you ask, either a respected industrialist or "involved in some unpleasantness during the Panic of '93." The ampersand will not be commenting on the great-grandfather.
+
+---
+
 ## Categories under consideration
 
 - Ampersands with too much confidence
