@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Cursed Ampersand Personality Archives</title>
+<meta name="description" content="A field guide to ampersands with too much going on.">
+<style>
+  :root {
+    --ink: #1a1410;
+    --paper: #f4ecd8;
+    --rule: #6b5a3e;
+    --accent: #8b1a1a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background-color: var(--paper);
+    background-image:
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.07 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    line-height: 1.55;
+    padding: 4rem 1.25rem 6rem;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 4rem; }
+  .glyph {
+    font-family: "Didot", "Bodoni 72", Georgia, serif;
+    font-size: clamp(8rem, 22vw, 14rem);
+    line-height: 0.9;
+    color: var(--accent);
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 400;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    margin: 1rem 0 0.25rem;
+  }
+  .tagline { font-style: italic; color: var(--rule); margin: 0; }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 3rem auto;
+    width: 40%;
+    opacity: 0.4;
+  }
+  article { margin-bottom: 4rem; }
+  .entry-no {
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    font-size: 0.85rem;
+    color: var(--rule);
+    margin: 0;
+  }
+  h2 {
+    font-size: clamp(1.4rem, 3.2vw, 2rem);
+    margin: 0.25rem 0 0.5rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .meta {
+    font-size: 0.9rem;
+    color: var(--rule);
+    margin: 0 0 1.5rem;
+  }
+  .meta span + span::before { content: " · "; }
+  figure {
+    margin: 0 0 1.5rem;
+    background: #fff;
+    padding: 1.25rem;
+    border: 1px solid var(--rule);
+    box-shadow: 4px 4px 0 rgba(26,20,16,0.08);
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  p { margin: 0 0 1rem; }
+  em { font-style: italic; }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.9em;
+    background: rgba(107,90,62,0.12);
+    padding: 0.05em 0.3em;
+    border-radius: 2px;
+  }
+  .submit {
+    text-align: center;
+    margin: 5rem auto 0;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    max-width: 520px;
+  }
+  .submit h3 {
+    font-variant: small-caps;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+  }
+  .submit p {
+    font-style: italic;
+    color: var(--rule);
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    background: var(--accent);
+    color: var(--paper);
+    text-decoration: none;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+    border: 1px solid var(--accent);
+    transition: background 0.15s;
+  }
+  .btn:hover { background: #6e1414; }
+  .loading, .error {
+    text-align: center;
+    color: var(--rule);
+    font-style: italic;
+    padding: 3rem 0;
+  }
+  .error { color: var(--accent); }
+  footer {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 0.85rem;
+    color: var(--rule);
+    font-style: italic;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="glyph">&amp;</p>
+    <h1>The Cursed Ampersand Personality Archives</h1>
+    <p class="tagline">A field guide to ampersands with too much going on.</p>
+  </header>
+
+  <main id="entries">
+    <p class="loading">Consulting the archive…</p>
+  </main>
+
+  <section class="submit">
+    <h3>Submit a Sighting</h3>
+    <p>Encountered an ampersand with too much going on? Send it in.</p>
+    <a class="btn" href="mailto:sightings@cursedampersands.com?subject=Cursed%20Ampersand%20Sighting&body=Location%3A%20%0ADate%20spotted%3A%20%0A%0ADescription%3A%20%0A%0A(Attach%20a%20photo)">Report a Specimen</a>
+  </section>
+
+  <footer>
+    <p>An ongoing archive. New specimens added as encountered.</p>
+  </footer>
+</div>
+
+<script>
+(async function () {
+  const mount = document.getElementById('entries');
+  try {
+    const res = await fetch('README.md', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('README fetch failed: ' + res.status);
+    const md = await res.text();
+    const entries = parseEntries(md);
+    if (!entries.length) throw new Error('No entries parsed');
+    mount.innerHTML = entries.map(renderEntry).join('<hr>');
+  } catch (err) {
+    mount.innerHTML = '<p class="error">The archive is temporarily unreachable. Try refreshing.</p>';
+    console.error(err);
+  }
+
+  function parseEntries(md) {
+    const lines = md.split('\n');
+    const entries = [];
+    let current = null;
+    const headingRe = /^##\s+Entry\s+(\d+)\s+[—-]\s+(.+?)\s*$/;
+    for (const line of lines) {
+      const m = line.match(headingRe);
+      if (m) {
+        if (current) entries.push(current);
+        current = { number: m[1], title: m[2], location: '', date: '', image: '', paragraphs: [] };
+        continue;
+      }
+      if (!current) continue;
+      if (line.startsWith('## ') || line.trim() === '---') {
+        entries.push(current);
+        current = null;
+        continue;
+      }
+      const loc = line.match(/^\*\*Location:\*\*\s*(.+?)\s*$/);
+      if (loc) { current.location = loc[1]; continue; }
+      const date = line.match(/^\*\*Date spotted:\*\*\s*(.+?)\s*$/);
+      if (date) { current.date = date[1]; continue; }
+      const img = line.match(/^!\[[^\]]*\]\(([^)]+)\)\s*$/);
+      if (img) { current.image = img[1]; continue; }
+      if (line.trim()) current.paragraphs.push(line.trim());
+    }
+    if (current) entries.push(current);
+    return entries.filter(e => e.title && e.paragraphs.length);
+  }
+
+  function renderEntry(e) {
+    const meta = [e.location, e.date].filter(Boolean).map(s => `<span>${escapeHtml(s)}</span>`).join('');
+    const fig = e.image ? `<figure><img src="${escapeHtml(e.image)}" alt="Entry ${escapeHtml(e.number)} — ${escapeHtml(e.title)}"></figure>` : '';
+    const body = e.paragraphs.map(p => `<p>${formatInline(p)}</p>`).join('');
+    return `
+      <article>
+        <p class="entry-no">Entry ${escapeHtml(e.number)}</p>
+        <h2>${escapeHtml(e.title)}</h2>
+        ${meta ? `<p class="meta">${meta}</p>` : ''}
+        ${fig}
+        ${body}
+      </article>`;
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function formatInline(s) {
+    let out = escapeHtml(s);
+    out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+    out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return out;
+  }
+})();
+</script>
+</body>
+</html>
