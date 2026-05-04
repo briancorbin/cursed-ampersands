@@ -1,0 +1,9 @@
+{
+  "name": "cursed-ampersands",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Cursed Ampersand Personality Archives",
+  "scripts": {
+    "build": "echo 'Static site — no build step needed'"
+  }
+}
